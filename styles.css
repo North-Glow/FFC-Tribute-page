@@ -1,0 +1,115 @@
+html {
+  background-color: RGB(110 110 110);
+  scroll-behavior: smooth;
+}
+
+.menu {
+  position: fixed;
+  background-color: RGB(200 200 200);
+  width: 100vw;
+  left: 0;
+  top: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 6px;
+  padding-top:0;
+  font-family: times;
+  
+}  
+
+.menu h1 {
+  margin-top: 3px;
+  margin-bottom: 6px;
+  padding: 0;
+}
+
+.menu a {
+  margin: 0 6px;
+  text-decoration: none;
+  color: RGB(75 75 75);
+  font-weight: 600;
+  
+}
+
+a:hover {
+  color: RGB(175 155 50);
+  background-color: RGB(255 235 90);
+}
+
+#tribute-link {
+  color: RGB(75 75 75);
+  font-weight: 600;
+}
+
+#intro {
+  margin-top: 90px;
+  padding: 1px 20px;
+}
+
+H2 {
+  font-family: times;
+  color: RGB(75 75 75);
+}
+
+#img-div {
+  padding: 1px 20px 40px 20px;
+}
+
+#main {
+  text-align: justify;
+  background-color: RGB(240 240 240)
+}
+
+.content h3, .content p {
+  padding: 5px 20px;
+}
+
+h3 {
+  font-family: times;
+  color: RGB(75 75 75);
+}
+
+.content p {
+  margin-bottom: 50px;
+  margin-top: 0;
+  font-family: Verdant, Arial, sans;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+#infographic {
+  width: 95vw;
+  display: block;
+  margin: 10px auto;
+}
+
+footer {
+background-color:RGB(240 240 240);
+padding: 5px 20px;
+}
+
+footer p {
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer a {
+  font-weight: 700;
+  color: RGB(75 75 75);
+  text-decoration:none;
+}
+
+#top {
+  font-family: times;
+  display: block;
+  text-align: center;
+  margin-top: 25px;
+  background-color: RGB(255 235 90);
+  border: 2px solid black;
+}
